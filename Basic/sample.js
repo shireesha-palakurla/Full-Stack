@@ -134,3 +134,54 @@ const squareFunction = function(a) { // Define a function expression for squarin
     console.log(a * a); // Log the square of a
 };
 squareFunction(9); // Call the function with an argument of 9
+
+// ==========================
+// Variable Declarations
+// ==========================
+var a = 10; // Declare a variable 'a' and assign it a number value of 10
+var b = "aa"; // Declare a variable 'b' and assign it a string value of "aa"
+var c = true; // Declare a variable 'c' and assign it a boolean value of true
+var d; // Declare a variable 'd' without assigning a value (undefined)
+
+// ==========================
+// Logging Variables
+// ==========================
+console.log(a); // Log the value of 'a' (10) to the console
+console.log(b); // Log the value of 'b' ("aa") to the console
+console.log(c); // Log the value of 'c' (true) to the console
+console.log(d); // Log the value of 'd' (undefined) to the console
+
+// ==========================
+// Constant Declaration
+// ==========================
+const name = "malli"; // Declare a constant 'name' and assign it a string value of "malli"
+// name = "manoo"; // Attempt to reassign a new value to 'name' (this will cause an error because 'name' is a constant)
+console.log(name); // Log the value of 'name' ("malli") to the console
+
+// ==========================
+// Let Variable Declaration
+// ==========================
+let number2 = 1; // Declare a variable 'number2' using 'let' and assign it a value of 1
+console.log(number2); // Log the value of 'number2' (1) to the console
+console.log(typeof number2); // Log the type of 'number2' (number) to the console
+
+// ==========================
+// String and Other Variable Declarations
+// ==========================
+let name = "shiri"; // Declare a variable 'name' and assign it a string value of "shiri"
+console.log(name); // Log the value of 'name' ("shiri") to the console
+
+let age = 20; // Declare a variable 'age' and assign it a number value of 20
+console.log(age); // Log the value of 'age' (20) to the console
+
+let isStudent = true; // Declare a variable 'isStudent' and assign it a boolean value of true
+console.log(isStudent); // Log the value of 'isStudent' (true) to the console
+
+// ==========================
+// String Interpolation
+// ==========================
+console.log("hi my Name is " + name + " and I am " + age + " years old, " + "Am I a student? " + isStudent); 
+// Log a concatenated string that includes the values of 'name', 'age', and 'isStudent'
+
+console.log(`hi my Name is ${name} and I am ${age}`); 
+// Log a template literal string that includes the values of 'name' and 'age' using interpolation
