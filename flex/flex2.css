@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(53, 154, 157);
+    align-items:center;
+    justify-content: center;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: darkkhaki;
+}
