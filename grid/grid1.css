@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns:100px 100px;
+    grid-template-rows:100px 100px;
+    height: 1000px;
+    width: 1000px;
+    gap: 20px;
+    background-color: chocolate;
+}
+.card{
+    background-color: blanchedalmond;
+}
