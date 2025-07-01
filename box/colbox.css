@@ -1,0 +1,40 @@
+body {
+    background-color:bisque; /* Set background color for body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the grid vertically */
+    margin: 0;
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create a grid with 5 equal columns */
+    gap: 10px; /* Space between boxes */
+    width: 80%; /* Set width of the grid */
+}
+
+.color-box {
+    width: 100%; /* Full width of the grid column */
+    height: 100px; /* Set height for the boxes */
+}
+
+.color1 {
+    background-color: #FF5733; /* Hexadecimal color value */
+}
+
+.color2 {
+    background-color: rgb(33, 150, 243); /* RGB color value */
+}
+
+.color3 {
+    background-color: rgb(151, 161, 2); /* Predefined color value */
+}
+
+.color4 {
+    background-color: hsl(120, 100%, 50%); /* HSL color value */
+}
+
+.color5 {
+    background-color: #8E44AD; /* Another hexadecimal color value */
+}
