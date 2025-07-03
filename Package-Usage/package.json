@@ -1,0 +1,19 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+//this Package is installed Automatically :install node.js-open file in VS-Code.
+first-open terminal go to Bash 
+second-type npm init,Enter
+Third-type yes, whenever it tells
+fourth-type node filename.js( node index.js)
