@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color:rgb(107, 19, 189);
+        }
+        .box{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(217, 100, 53);
+            position: relative;
+            animation-name: Anibx;
+            animation-duration:3s;
+            animation-delay: 1s;
+            animation-iteration-count:infinite;
+            animation-fill-mode:backwards;
+           /* animation-timing-function:ease-in-out;*/
+            animation-direction: reverse;
+            /*animation-direction: alternate;*/
+        }
+        @keyframes Anibx{
+            from{
+                width: 200px;
+            }
+          to{
+            width: 1400px;
+           }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <div class="box"></div>
+</div>
+</body>
+</html>
